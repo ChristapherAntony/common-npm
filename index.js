@@ -10,5 +10,5 @@ const authorize = (req, res, next) => {
   } catch (error) {}
   next();
 };
-
+  
 module.exports = authorize;

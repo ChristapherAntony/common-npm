@@ -3,9 +3,6 @@
   "version": "1.0.3",
   "description": "",
   "main": "./src/index.js",
-  "files": [
-    "src/**/*"
-  ],
   "scripts": {
     "pub": "git add . && git commit -m \"Updates\" && git push origin master && npm version patch && npm publish"
   },
